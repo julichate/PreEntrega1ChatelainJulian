@@ -1,0 +1,44 @@
+#carro{
+    color: beige;
+    float: right;
+    margin-right: 50px;
+    }
+#FormBusqueda{
+    position: relative;
+    transform: translateX(300%);
+    -webkit-transform: translateX(300%);
+    -moz-transform: translateX(300%);
+    -ms-transform: translateX(300%);
+    -o-transform: translateX(300%);
+}
+
+.contenedor{
+    width: 80%;
+    height: 100%;
+    border: 2px solid ;
+    margin-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: space-around;
+    padding: 10px;
+}
+
+.contenedor h1{
+    text-align: center;
+}
+
+.divProductos{
+    width: 90vw;
+    height: 100%;
+    border: 2px solid;
+    margin-top: 50px;
+    margin-left: 5vw;
+    padding-top: 20px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
