@@ -1,4 +1,4 @@
-import React from 'react';
+import {Link} from "react-router-dom"
 import DroopDown from './DroopDown';
 import Busqueda from './Busqueda';
 import NavMenu from './NavMenu';
@@ -11,7 +11,8 @@ const SubDroop = ["Consolas","Juegos","Emuladores","Accesorios"]
         <>
               <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">La Casa Del Videojuego</a>
+    <Link className="navbar-brand" to="/">La Casa Del Videojuego</Link>
+    
       <ButtonResponsive/>
     <div className="collapse navbar-collapse" id="navbarColor03">
       <ul className="navbar-nav me-auto">

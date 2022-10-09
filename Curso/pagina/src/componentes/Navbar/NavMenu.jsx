@@ -4,18 +4,18 @@ const NavMenu = () => {
     return (
         <>
            <li className="nav-item">
-          <a className="nav-link active" href="#">Home
+          <a className="nav-link active" href="">Home
             <span className="visually-hidden">(current)</span>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Nintendo</a>
+          <a className="nav-link" href="">Nintendo</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Sega</a>
+          <a className="nav-link" href="">Sega</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">PlayStation</a>
+          <a className="nav-link" href="">PlayStation</a>
         </li> 
         </>
     );
